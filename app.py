@@ -3,4 +3,7 @@ from a2 import apple
 
 st.title("hello")
 
-st.title(apple(1))
+x=st.text_input("Enter a Number")
+
+if x:
+    st.write(apple(x))
